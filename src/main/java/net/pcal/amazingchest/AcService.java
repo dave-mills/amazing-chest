@@ -91,6 +91,10 @@ public class AcService implements PlayerBlockBreakEvents.After {
         return this.logger;
     }
 
+    PullPolicy getPullPolicy() {
+        return this.pullPolicy;
+    }
+
     // ===================================================================================
     // PlayerBlockBreakEvents listener
 
